@@ -1,7 +1,7 @@
 # 🛒 Supermarket Sales Analysis
 
 An end-to-end data analytics portfolio project analysing supermarket sales data 
-across 3 branches (January - March 2019).
+across 3 branches in Myanmar (January - March 2019).
 
 ## 📌 Problem Statement
 How can a supermarket chain understand what drives customer satisfaction and revenue 
@@ -46,27 +46,14 @@ https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 
 | Theme | Finding |
 |---|---|
-| Branch Performance 
-| Branch C leads on both revenue ($119.6K) and average rating (7.1) 
-
-| Top Product Line 
-| Food & Beverages — highest revenue ($56K) AND highest rating 
-
-| Untapped Revenue
-| Health & Beauty is 2nd highest rated but last in revenue ($49K) |
-
-| Peak Trading 
-| Saturdays at 7pm generate the highest revenue 
-| Monthly Trend | January strongest ($116K); February dips ($97K); March recovers ($109K) 
-
-| Top Customer Segment
-| Female Members are the highest value customer segment 
-
-| Payment Methods 
-| All three methods nearly equal — no dominant preference |
-
-| Key Insight
-| Customer rating has near-zero correlation with all financial variables
+| Branch Performance | Branch C leads on both revenue ($119.6K) and average rating (7.1) |
+| Top Product Line | Food & Beverages — highest revenue ($56K) AND highest rating |
+| Untapped Revenue | Health & Beauty is 2nd highest rated but last in revenue ($49K) |
+| Peak Trading | Saturdays at 7pm generate the highest revenue |
+| Monthly Trend | January strongest ($116K); February dips ($97K); March recovers ($109K) |
+| Top Customer Segment | Female Members are the highest value customer segment |
+| Payment Methods | All three methods nearly equal — no dominant preference |
+| Key Insight | Customer rating has near-zero correlation with all financial variables |
 
 ## 📈 Power BI Dashboard
 
@@ -97,29 +84,18 @@ synced slicers for Branch, Gender, Customer Type and Payment Method across all p
 ![Rating Analysis](images/05_rating_analysis.png)
 
 
-> ## 🤖 Machine Learning
+## 🤖 Machine Learning
 
 Three ML techniques were applied covering supervised and unsupervised learning.
 
 | Model | Type | Result | Key Finding |
 |---|---|---|---|
-| Logistic Regression 
-| Classification 56% accuracy Barely above random chance 
-
-| Random Forest 
-| Classification 47% accuracy Below random chance 
-
-| Linear Regression 
-| Regression R2 -0.03  No predictive power 
-
-| Random Forest 
-| Regression  R2 -0.09  No predictive power 
-
-| Gradient Boosting 
-| Regression  R2 -0.12  No predictive power 
-
-| KMeans Clustering 
-| Unsupervised Silhouette 0.24  2 customer segments identified 
+| Logistic Regression | Classification | 56% accuracy | Barely above random chance |
+| Random Forest | Classification | 47% accuracy | Below random chance |
+| Linear Regression | Regression | R2 -0.03 | No predictive power |
+| Random Forest | Regression | R2 -0.09 | No predictive power |
+| Gradient Boosting | Regression | R2 -0.12 | No predictive power |
+| KMeans Clustering | Unsupervised | Silhouette 0.24 | 2 customer segments identified |
 
 ### ML Conclusion
 Customer type and rating could not be predicted from transaction data alone. 
@@ -136,7 +112,7 @@ The clustering model identified 2 distinct customer segments:
 
 > Key Insight: High value customers spend 3.5x more but report virtually 
 > identical satisfaction scores to regular customers.
-
+> 
 ## 💡 Business Recommendations
 
 | # | Recommendation | Rationale |
@@ -168,12 +144,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - [x] Exploratory Data Analysis
 - [x] Power BI Dashboard
 - [x] Machine Learning
-- [ ] Dashboard Screenshots (coming soon)
+- [x]Dashboard Screenshots
 
 ## 👤 Author
-  Nuuraishah Binte Noor Mohamed
-- GitHub: Nasha14 https://github.com/Nasha14
-- LinkedIn: https://www.linkedin.com/in/nuuraishah-noor-mohamed-6001b981/
+
+**Nuuraishah Binte Noor Mohamed**
+- GitHub: Nasha (https://github.com/Nasha14)
+- LinkedIn: (https://www.linkedin.com/in/nuuraishah-noor-mohamed-6001b981/)
 
 ## 📄 License
 
