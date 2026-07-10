@@ -144,7 +144,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - [x] Exploratory Data Analysis
 - [x] Power BI Dashboard
 - [x] Machine Learning
-- [x]Dashboard Screenshots
+- [x] Dashboard Screenshots (coming soon)
 
 ## 👤 Author
 
