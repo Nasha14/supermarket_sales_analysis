@@ -81,8 +81,22 @@ synced slicers for Branch, Gender, Customer Type and Payment Method across all p
 | 4 | Customer Behaviour — gender, customer type, payment and time patterns |
 | 5 | Rating Analysis — distribution, time of day, day of week and segment breakdown |
 
-> Dashboard screenshots will be added upon completion of final formatting.
->
+### Executive Summary
+![Executive Summary](images/01_executive_summary.png)
+
+### Branch Performance
+![Branch Performance](images/02_branch_performance.png)
+
+### Product Line Analysis
+![Product Line Analysis](images/03_product_line_analysis.png)
+
+### Customer Behaviour
+![Customer Behaviour](images/04_customer_behaviour.png)
+
+### Rating Analysis
+![Rating Analysis](images/05_rating_analysis.png)
+
+
 > ## 🤖 Machine Learning
 
 Three ML techniques were applied covering supervised and unsupervised learning.
